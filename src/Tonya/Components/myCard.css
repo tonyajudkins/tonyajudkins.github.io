@@ -1,51 +1,37 @@
-@media only screen
-and (min-device-width: 1347px) {
-    .card {
-        font-size: 3.3vh;
-    }
 
+@media (min-width: 1347px) {
+    .socialCard {
+        display: flex;
+        margin: 4rem 0;
+    }
     .social {
+        font-size: 2.3vh;
         padding: 0.5% 6%;
-        font-size: 2.5vh;
+        padding: 0.5% 4%;
     }
-
     .socialIcon {
-        margin-left: -10%;
-        width: 12%;
+        height: 2rem;
     }
-
     .resume {
-        margin-top: 15%;
-        margin-left: 15%;
-        font-size: 3vh;
-    }
-
-    a {
-        text-decoration: none;
+        font-size: 2.3vh;
     }
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 1346px) {
+@media (max-width: 1346px) {
 
-    .card {
-        padding-left: 0;
-    }
-    .resume {
-       width: 0;
-        display: none;
+    .socialCard {
+        display: flex ;
     }
     .social {
         display: flex;
-        padding: 3vw;
         font-size: 2.3vh;
-    }
-    .resume {
-        display: none;
-        font-size: 2.6vh;
+        padding: 0.5% 4%;
     }
     .socialIcon {
-        width: 5vw;
+        height: 2rem;
+    }
+    .resume {
+        display: flex;
+        font-size: 2.3vh;
     }
 }
